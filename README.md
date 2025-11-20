@@ -32,6 +32,13 @@ into
 
 ```
 
+# Usage
+
+- Bibliography entries in CSL to YAML format
+```bash
+pandoc -s -f csljson -t markdown --template=yaml.tpl refs.json -o refs.md
+```
+
 # Credits
 
 Based off a [blog post](https://members.loria.fr/EJeandel/posts/bibtex/) from Emmanuel Jeandel.
